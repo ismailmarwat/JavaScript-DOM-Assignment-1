@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DOM Assignment #1</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 30px;
+      transition: background-color 0.5s;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    button {
+      margin: 8px 0;
+      padding: 10px 16px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    input {
+      padding: 8px;
+      font-size: 16px;
+      width: 220px;
+    }
+    #output {
+      margin-top: 12px;
+      font-weight: bold;
+      min-height: 24px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Task 1 -->
+  <h1 id="greeting">Hello World</h1>
+
+  <!-- Task 2 -->
+  <p id="myParagraph">This is a paragraph</p>
+  <button id="btnChangeText">Change Text</button>
+
+  <!-- Task 3 -->
+  <button id="btnChangeBg">Change Background</button>
+
+  <!-- Task 4 -->
+  <button id="btnAlert">Show Alert</button>
+
+  <!-- Task 5 -->
+  <div style="margin-top: 40px;">
+    <input type="text" id="userInput" placeholder="Type something..." />
+    <button id="btnUpdate">Update Text</button>
+    <p id="output">→ The text will appear here</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
